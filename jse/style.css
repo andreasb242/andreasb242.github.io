@@ -22,6 +22,11 @@ header {
 	background-color: #424242;
 }
 
+header a, header a:VISITED {
+	color: yellow;
+	text-decoration: none:
+}
+
 button {
 	width: 100%;
 }

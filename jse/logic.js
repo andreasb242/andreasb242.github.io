@@ -11,8 +11,18 @@ function executeCode() {
 	$('#output').text("");
 	let in1 = $('#in1').val();
 	let in2 = $('#in2').val();
-	
-	eval(code);
+
+
+	try {
+		eval(code); 
+	} catch (e) {
+		if (e instanceof SyntaxError) {
+			print("Fehler! Zeile: " + e.lineNumber + "\n" + e.message);
+		}
+		else {
+			print("Fehler!\n" + e);
+		}
+	}
 }
 
 
