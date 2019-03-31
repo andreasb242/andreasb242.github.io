@@ -1,0 +1,41 @@
+body {
+  	font-family: sans-serif;
+}
+
+h1 {
+	padding: 10px 5px;
+	font-size: 20px;
+}
+
+h2 {
+	padding: 7px 5px;
+	font-size: 15px;
+}
+
+p {
+	padding: 5px;
+}
+
+header {
+	width: 100%;
+	color: #fff;
+	background-color: #424242;
+}
+
+button {
+	width: 100%;
+}
+
+#output {
+	background-color: #EEE;
+	color: #006D2D;
+	width: 100%;
+}
+
+article {
+	width: 100%;
+}
+
+#code {
+	width: 100%;
+}
